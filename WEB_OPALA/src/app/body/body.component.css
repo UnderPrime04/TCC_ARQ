@@ -1,0 +1,55 @@
+.link{
+  text-decoration: none;
+}
+
+
+.Title{
+    color: rgb(0, 0, 0);
+    margin-top:7%;
+    font-size: large;
+    font: 500 20px/32px Roboto, "Courier New", sans-serif;
+}
+
+.cards-container{
+        display: flex; /* Adiciona display: flex para alinhar os cards horizontalmente */
+        justify-content: space-around; /* Distribui os cards com espaço igual entre eles */
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 20%;
+    margin-top: 5%;
+  }
+
+  .cardTwo {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 20%;
+    margin-top: 5%;
+  }
+
+  .cardThree {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 20%;
+    margin-top: 5%;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .containerTwo {
+    padding: 2px 16px;
+  }
+
+  .containerThree {
+    padding: 2px 16px;
+  }

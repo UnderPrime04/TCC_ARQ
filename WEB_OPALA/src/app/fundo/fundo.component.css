@@ -1,0 +1,7 @@
+.fundo {
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o componente */
+    background-position: center; /* Posiciona a imagem no centro do componente */
+    /* Outros estilos para o componente "fundo" */
+  }
+  
