@@ -1,85 +1,3 @@
-/* Estilos para a primeira Navbar */
-.navbar1 {
-  position: fixed;
-  top: 0; /* Coloca a primeira Navbar no topo da tela */
-  display: flex;
-  justify-content: space-between; /* Alinha os elementos no espaço disponível */
-  align-items: center; /* Centraliza verticalmente os elementos */
-  background-color: #ffffff;
-  color: white;
-  text-align: center;
-  margin: 0;
-  margin-left: -10px;
-  height: 70px;
-  width: 100%; /* Define a largura como 100% para cobrir a largura da tela */
-  padding: 0;
-}
-
-.navbar-logo img {
-  display: block;
-  margin-right: 600px; /* Ajuste a margem da direita conforme necessário */
-}
-
-.menu-button {
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  margin-left: 10px;
-}
-
-/* Estilos para a segunda Navbar */
-.navbar {
-  position: fixed;
-  top: 70px; /* Coloca a segunda Navbar abaixo da primeira */
-  height: 50px;
-  width: 100%;
-  margin: 0;
-  margin-left: -10px;
-  padding: 0;
-  background-color: #000000;
-  color: white;
-  text-align: center;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-/* Estilos para o botão de menu móvel */
-@media (max-width: 768px) {
-  .menu-button {
-    display: block;
-  }
-  
-  .navbar ul {
-    display: none;
-  }
-  
-  .navbar ul.show {
-    display: block;
-  }
-}
-
-
-/*SOBRE-NÓS*/
-
-body{
-  margin: 0;
-}
-
 .link{
     text-decoration: none;
   }
@@ -129,16 +47,19 @@ body{
   margin-left: 10px;
   }
 
+  
+  /* Quando o mouse passar sobre as imagens, o efeito neon será mais forte */
+  
+    
+  /* Adicione uma classe para a área de rodapé */
   .rodape {
-    position: flex;
+    position: fixed;
     grid-area: rodape;
-    background-color: #0093b7; /* Cor vermelha */
+    background-color: rgb(10, 26, 97); /* Cor vermelha */
     color: white; /* Texto em branco */
-    margin: 0;
-    margin-top: 150px; /* Margem superior negativa para sobrepor a classe .navbar */
-    margin-left: -8px;
-    padding: 0;
-    width: 101%;
+    top: 80px;
+    left: 0px;
+    width: 100vw;
     height: 90vh;
   }
 /* Mantenha os estilos existentes e adicione o seguinte */
@@ -161,24 +82,8 @@ body{
   color: #ffffff; /* Cor do texto */
 }
 
-.rodape1 {
-  position: flex;
-  grid-area: rodape;
-  background-color: #017997; /* Cor vermelha */
-  color: white; /* Texto em branco */
-  margin: 0;
-  margin-top: -35px; /* Margem superior negativa para sobrepor a classe .navbar */
-  margin-left: -8px;
-  padding: 0;
-  width: 101%;
-  height: 90vh;
-}
-
-/* OBJETIVO*/
 
 
-
- 
 
 
 
